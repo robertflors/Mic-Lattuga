@@ -1,0 +1,68 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+main h2.main-titulo {
+  font-size: 5rem;
+  font-weight: bold;
+  letter-spacing: -0.15rem;
+  color: rgba(116, 116, 116, 0.4);
+  text-align: center;
+  margin-top: 15rem; }
+
+header nav div.container-fluid div.navbar-brand {
+  margin-left: 2%; }
+
+header nav div.container-fluid div.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+  margin-left: 10rem; }
+  header nav div.container-fluid div.navbar-nav a.estilo-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0F9B20; }
+  header nav div.container-fluid div.navbar-nav a.estilo-titulo:hover {
+    color: red; }
+
+main section#portada {
+  height: 80vh;
+  /*ESTE ES UNA MEDIDA TEMPORAL PARA QUE PUEDA VERSE LA IMAGEN MIENTRAS SIGA COMO FONDO, ASÍ YO PODER TRABAJAR LA SECCIÓN DE ABAJO*/
+  background-image: url("../imagen/portada/foto_de_fondo.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right; }
+  main section#portada div.contenedor-titulo-portada {
+    font-weight: bold;
+    font-size: 8rem;
+    width: 70rem;
+    color: #F8D000; }
+  main section#portada div.contenedor-texto-portada {
+    font-size: 2.5rem;
+    color: #2C2C2C;
+    margin-top: 10rem; }
+
+main section#menuComida div#productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%; }
+  main section#menuComida div#productos div.menuComida__producto {
+    width: 33%;
+    height: 30rem;
+    margin: 1rem;
+    background-color: red; }
+
+.boton-whatsapp {
+  background: #0F9B20;
+  border-radius: 10px;
+  color: white; }

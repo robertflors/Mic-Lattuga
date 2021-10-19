@@ -1,0 +1,25 @@
+
+main{
+    section#portada{
+        height: 80vh; /*ESTE ES UNA MEDIDA TEMPORAL PARA QUE PUEDA VERSE LA IMAGEN MIENTRAS SIGA COMO FONDO, ASÍ YO PODER TRABAJAR LA SECCIÓN DE ABAJO*/
+        background-image: url('../imagen/portada/foto_de_fondo.png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+
+        div.contenedor-titulo-portada { 
+            font-weight: bold;
+            font-size: 8rem;
+            width: 70rem;
+            color: #F8D000;
+        }
+
+        div.contenedor-texto-portada {
+            font-size: 2.5rem;
+            color: #2C2C2C;
+            margin-top: 10rem;
+         }
+    }
+  
+}

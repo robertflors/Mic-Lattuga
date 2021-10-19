@@ -1,0 +1,35 @@
+// color letras
+$principal: #0F9B20;
+
+header{
+    nav{
+        div.container-fluid{
+
+            div.navbar-brand{
+                margin-left: 2%;
+            }
+
+            div.navbar-nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 40%;
+                margin-left: 10rem;
+
+                a.estilo-titulo {  
+                    font-size: 2rem;
+                    font-weight: bold;
+                    color: $principal;
+                }
+                a.estilo-titulo:hover{
+                    color: red;
+                
+                }
+            }      
+          
+        }
+    }
+}
+   
+
+

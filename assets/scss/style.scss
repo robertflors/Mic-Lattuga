@@ -1,0 +1,34 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+// LE APLIQUÉ EL FONT A TODO EL BODY YA QUE TODO EL SITIO ESTÁ CON POPPINS
+    font-family: 'poppins', sans-serif;
+}
+// ESTA PARTE ES PARA QUE EL FONT SIZE POR DEFECTO DEL SITIO SEAN 10px FORMA TAL QUE PODAMOS USAR LA MEDIDA REM DE FORMA MÁS FÁCIL (1 REM = 10px) EJEM: 7px = 0.7rem
+html{
+    font-size: 62.5%
+}
+// ESTO LO COMENTÉ Y LO PASÉ A LA HOJA DE ESTILOS DE PORTADA, PARA PODER TRABAJAR LA SECCIÓN DE MENÚ DE COMIDA
+// body {
+//     background-image: url('../imagen/portada/foto_de_fondo.png');
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     background-position: right;
+// }
+
+main{
+    h2.main-titulo{
+        font-size: 5rem;
+        font-weight: bold;
+        letter-spacing: -0.15rem;
+        color: rgba(116, 116, 116, 0.4);
+        text-align: center;
+        margin-top: 15rem;  
+    }
+}
+
+@import "componentes/header";
+@import "componentes/portada";
+@import "componentes/menuComida";
+@import "componentes/footer";
